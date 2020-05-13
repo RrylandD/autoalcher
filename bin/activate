@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/rylanddonovan/Documents/github/Code/python/alch"
+VIRTUAL_ENV="/Users/rylanddonovan/Documents/github/autoalcher"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(alch) " != x ] ; then
-	PS1="(alch) ${PS1:-}"
+    if [ "x(autoalcher) " != x ] ; then
+	PS1="(autoalcher) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
